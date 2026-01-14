@@ -2,16 +2,16 @@ package code_coverage_4.code_coverage_4;
 
 public class WeakClass {
 	
-	public static int weakMethod(int x) {
-	    int result;
+	public  int weakMethod(int x) {
 
-	    if (x > 0) {
-	        result = x + 1;
-	    } else {
-	        result = x - 1;
-	    }
+		int res = 0;
+        if (x > 0) {
+            x = x +5;
+        }
+		
 
-	    return result;
+        res = 10 / x; 
+
+        return res;  
+        }
 	}
-
-}

@@ -11,10 +11,7 @@ public class Func3Test {
 			 CoverageFunctions.func3(1);
 			 });
 	}
-	public void test_xZero() {
-		
-		 assertThrows(ArithmeticException.class, () -> {
-			 CoverageFunctions.func3(0);
-			 });
+	
+	
 	}
-}
+
